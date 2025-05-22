@@ -18,8 +18,8 @@ The dataset used from Kaggle is tmdb_5000_movies.csv
 
 # File Explanation
 - app.py : Loads the model and provides UI using streamlit for users to choose a movie and see the recommendation
-- model : Trained kkn model saved using joblib. Used to find similiar movies
-- matrix : Full TF-IDF matrix for all movies, used to similiarity calculation
+- model : Trained kkn model saved using joblib. Used to find similar movies
+- matrix : Full TF-IDF matrix for all movies, used to similarity calculation
 - vectorizer : Trained TF-IDF vectorizer, used to transform input text into vectors
 - Movie_Recommendation.py : Python script that explores the data and build/trains the model 
 
